@@ -38,3 +38,32 @@ ul {
 
 
     }
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+
+form label {
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+form input {
+  min-height: 20px;
+}
+
+#message {
+  min-height: 80px;
+}
+
+button {
+  padding: 10px;
+}
+
+form button:hover {
+  background-color: yellow;
+}
+

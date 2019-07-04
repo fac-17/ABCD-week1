@@ -10,7 +10,8 @@ Pink - #EC7176 */
   src: url(fonts/Ultra-Regular.ttf);
 } */
 
-ul {
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -139,16 +140,19 @@ section {
 
 #team ol {
   list-style-type: none;
-
-  display: flex;
   text-align: center;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
-#team li {
-  min-width: 200px;
+.person-profile {  /* This relates to the profiles (and -unwillingly- links) */
+  width: 200px;
   padding: 20px;
-
-  justify-content: space-between;
+  text-align: center;
+  justify-content: space-around;
 }
 
 #profile {
@@ -156,8 +160,15 @@ section {
   border-radius: 20px;
 }
 
-#icon {
+.profile-links {
+  list-style-type: none;
+  display: flex;
+
+}
+
+.profile-links #icon {  /* This relates to the links within the profiles */
   width: 30px;
+
 }
 
 /* CONTACT FORM */

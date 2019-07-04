@@ -1,10 +1,16 @@
-# ABCD-week1
-Building one page website 
-Build a one-page portfolio website for you and your team
-We want you to work together over the next few days to build a small site from scratch that provides a short portfolio for you and your team.
+# ABCD
 
-To describe what features should be implemented, these are the user stories that should be satisfied;
+#### WHY / WHAT / HOW
+Building a one page website from scratch that provides a short agency portfolio for our team.
 
+The website has to include 4 parts:
+- Headline -> introduce the agency
+- About -> few lines about who we are and what we do
+- Team -> our profiles + links to our linkedIn / GitHub / Codewars accounts
+- Contact -> contact form
+
+
+## USER STORY
 **As a client looking to hire a team of developers**
 
 - [x] I want to visit your site and immediately see a headline about your team. So that I get a concise description of what you have to offer me.
@@ -28,3 +34,6 @@ To describe what features should be implemented, these are the user stories that
 
 - [ ] I would like to visit your site and get a similar experience to viewing your site on a modern browser with JavaScript enabled. So that I don't feel like I'm completely in the stone age.
 
+
+# Deployment
+This website has been deployed on GitHub Pages. You can access it [here](link).

@@ -1,43 +1,58 @@
+/* Blue - #2D527F
+Orange - #EA673B
+Yellow - #F7B032
+Pink - #EC7176 */
+
+@font-face {
+  font-family: Ultra-Regular;
+  src: url(fonts/Ultra-Regular.ttf);
+}
+/* 
+nav {
+height:60px;
+background-color: #333;
+
+} */
+
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
     
-    li {
-    float: left;
-    }
+li {
+  float: left;
+}
     
-    li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
     
-    li a:hover:not(.active) {
-    background-color: #111;
-    }
+li a:hover:not(.active) {
+  background-color: #111;
+}
     
-    .active {
-    background-color: #4CAF50;
-    }
+.active {
+  background-color: #EA673B;
+}
 
-    .bigTitle {
-        font-size: 22px;
-        color: black;
-        font-family: 'Courier New', Courier, monospace;
-        /* margin-top: 40px; */
-        text-align: center;
-
-
-    }
+.bigTitle {
+  font-size: 40px;
+  color: white;
+  font-family: "Ultra-Regular", serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
 
 form {
   display: flex;
@@ -49,34 +64,81 @@ form {
 form label {
   margin: auto;
   padding-bottom: 10px;
+  font-size: 1.8em;
+  text-align: center;
+  max-width: 600px;
 }
 
 form input {
-  min-height: 20px;
+  min-height: 30px;
+  background-color: whitesmoke;
+  border: 3px solid #2D527F;
+  border-radius: 10px;
+}
+
+form button {
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+  font-family: "Ultra-Regular", serif;
+  color: #EA673B;
+  font-size: 2em;
+  border-radius: 10px;
+  border: 3px solid #EA673B;
+}
+
+form button:hover {
+  background-color: #F7B032;
 }
 
 #message {
   min-height: 80px;
 }
 
-button {
-  padding: 10px;
-}
-
-form button:hover {
-  background-color: yellow;
-}
-
 section {
+  
+  height: 100vh;
+  width: 100vw;
+  padding: 30px;
+}
 
-    height: 100vh;
-    width: 100vw;
-    padding: 30px;
-    
+.blueSection { 
+  background-color:#2D527F;
+  color: white;
+  width: 100%
+}
+
+.blueSection img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 800px;
+  
 
 }
 
-.greenSection { 
-    background-color: #cbff4d;
+#about{
+  background-color: #EA673B;
+  color: #2D527F;
 
 }
+
+#team {
+  background-color:#F7B032;
+  color: #2D527F;
+}
+
+#contact {
+  background-color:#EC7176 ;
+  color: #2D527F;
+}
+
+p{
+  font-size: 1.8em;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+

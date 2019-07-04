@@ -9,6 +9,12 @@ The website has to include 4 parts:
 - Team -> our profiles + links to our linkedIn / GitHub / Codewars accounts
 - Contact -> contact form
 
+**Has to be improve :**
+-  Mobile accessibility
+- CSS hierarchie (too many id...)
+- Color contrast for people visually impaired
+- Make it more interactive
+
 
 ## USER STORY
 **As a client looking to hire a team of developers**
@@ -24,16 +30,17 @@ The website has to include 4 parts:
 
 **Accessibility**
 
-- [ ] I want to easily view the site when browsing on my mobile, tablet or desktop. So that I can understand the sites content easily on whatever device I choose to view it in.
+- [x] I want to easily view the site when browsing on my mobile, tablet or desktop. So that I can understand the sites content easily on whatever device I choose to view it in.
 
-- [ ] I would like to easily read and understand the text on your site. So I can understand the information available.
+- [x] I would like to easily read and understand the text on your site. So I can understand the information available.
 
 - [ ] As a blind client... I would like to easily understand how to navigate the site after my screen reader reads me the content of the site. So I can understand the information available.
 
-- [ ] As a client with JavaScript disabled in their browser for security reasons
+- [x] As a client with JavaScript disabled in their browser for security reasons
 
-- [ ] I would like to visit your site and get a similar experience to viewing your site on a modern browser with JavaScript enabled. So that I don't feel like I'm completely in the stone age.
+- [x] I would like to visit your site and get a similar experience to viewing your site on a modern browser with JavaScript enabled. So that I don't feel like I'm completely in the stone age.
 
 
 # Deployment
-This website has been deployed on GitHub Pages. You can access it [here](link).
+This website has been deployed on GitHub Pages. You can access it [here](https://fac-17.github.io/ABCD-week1/).
+

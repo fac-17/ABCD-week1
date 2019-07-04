@@ -105,6 +105,18 @@ section {
 .blueSection { 
   background-color:#2D527F;
   color: white;
+  width: 100%
+}
+
+.blueSection img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 800px;
+  
+
 }
 
 #about{

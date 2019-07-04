@@ -6,10 +6,10 @@ Orange - #EA673B
 Yellow - #F7B032
 Pink - #EC7176 */
 
-@font-face {
+/* @font-face {
   font-family: Ultra-Regular;
   src: url(fonts/Ultra-Regular.ttf);
-}
+} */
 
 
 ul {
@@ -50,17 +50,17 @@ header li a:hover:not(.active) {
 /* GENERAL TYPOGRAHY */
 
 .bigTitle {
-  font-size: 50px;
+  font-size: 5em;
   color: white;
-  font-family: "Ultra-Regular", serif;
+  font-family: 'Fugaz One', cursive;
   text-align: center;
   margin-bottom: 80px;
 }
 
-@font-face {
+/* @font-face {
   font-family: Ultra-Regular;
   src: url(fonts/Ultra-Regular.ttf);
-}
+} */
 
 
 h2 {
@@ -68,18 +68,22 @@ h2 {
   text-align: center;
   margin: auto;
   line-height: 60px;
-  font-family: "Marcellus", serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 p, h3 {
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
   text-align: center;
   max-width: 600px;
   margin: auto;
+  text-align: justify;
 }
 
 h3 {
   font-size: 1.4em;
+  font-family: 'Fugaz One', cursive;
 }
 
 form input {
@@ -89,16 +93,17 @@ form input {
   border-radius: 10px;
 }
 
-form button {
+/* form button {
   padding: 20px;
   width: 400px;
   margin: auto;
-  font-family: "Ultra-Regular", serif;
+
+  font-family: 'Open Sans', sans-serif;
   color: #ea673b;
   font-size: 2em;
   border-radius: 10px;
   border: 3px solid #ea673b;
-}
+} */
 
 form button:hover {
   background-color: #f7b032;
@@ -182,26 +187,27 @@ form {
 }
 
 form label {
-  margin: auto;
-  padding-bottom: 10px;
+  /* margin: auto; */
+  /* padding-bottom: 10px; */
   font-size: 1.8em;
   text-align: center;
   max-width: 600px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 form input {
-  min-height: 30px;
+  min-height: 50px;
   background-color: whitesmoke;
   border: 3px solid #2D527F;
   border-radius: 10px;
 }
 
 form button {
-  padding: 20px;
-  width: 400px;
-  margin: auto;
-
-  font-family: "Ultra-Regular", serif;
+  margin-left: 200px;
+  max-width: 200px;
+  /* margin: auto; */
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
   color: #EA673B;
   font-size: 2em;
   border-radius: 10px;

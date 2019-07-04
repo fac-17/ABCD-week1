@@ -1,3 +1,6 @@
+
+/* TOP NAV */
+
 /* Blue - #2D527F
 Orange - #EA673B
 Yellow - #F7B032
@@ -7,12 +10,7 @@ Pink - #EC7176 */
   font-family: Ultra-Regular;
   src: url(fonts/Ultra-Regular.ttf);
 }
-/* 
-nav {
-height:60px;
-background-color: #333;
 
-} */
 
 ul {
   list-style-type: none;
@@ -24,6 +22,7 @@ ul {
   top: 0;
   width: 100%;
 }
+
 
 ul li {
   float: left;
@@ -37,13 +36,18 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+
+header li a:hover:not(.active) {
   background-color: #111;
 }
 
 .active {
   background-color: #ea673b;
 }
+
+
+
+/* GENERAL TYPOGRAHY */
 
 .bigTitle {
   font-size: 50px;
@@ -53,19 +57,29 @@ li a:hover:not(.active) {
   margin-bottom: 80px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
+@font-face {
+  font-family: Ultra-Regular;
+  src: url(fonts/Ultra-Regular.ttf);
+}
+
+
+h2 {
+  font-size: 2.4em;
+  text-align: center;
+  margin: auto;
+  line-height: 60px;
+  font-family: "Marcellus", serif;
+}
+
+p, h3 {
+  font-size: 1.2em;
+  text-align: center;
   max-width: 600px;
   margin: auto;
 }
 
-form label {
-  margin: auto;
-  padding-bottom: 10px;
-  font-size: 1.8em;
-  text-align: center;
-  max-width: 600px;
+h3 {
+  font-size: 1.4em;
 }
 
 form input {
@@ -90,18 +104,17 @@ form button:hover {
   background-color: #f7b032;
 }
 
-#message {
-  min-height: 80px;
-}
+
+/* SECTIONS STYLING */
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   padding: 30px;
 }
 
 .blueSection {
-  background-color: #2d527f;
+  background-color:#2D527F;
   color: white;
   width: 100%;
 }
@@ -119,27 +132,87 @@ section {
   color: #2d527f;
 }
 
+
+/* TEAM SECTION */
+
 #team {
-  background-color: #f7b032;
-  color: #2d527f;
+  background-color:#F7B032;
+  color: #2D527F;
 }
+
+#team ol {
+  list-style-type: none;
+
+
+  display: flex;
+  text-align: center;
+}
+
+#team li {
+  min-width: 200px;
+  padding: 20px;
+
+  justify-content: space-between;
+}
+
+
+#profile {
+  width: 100px;
+  border-radius: 20px;
+}
+
+#icon {
+  width: 30px;
+}
+
+
+/* CONTACT FORM */
 
 #contact {
   background-color: #ec7176;
   color: #2d527f;
 }
 
-p {
-  font-size: 1.8em;
-  text-align: center;
+
+form {
+  display: flex;
+  flex-direction: column;
   max-width: 600px;
   margin: auto;
 }
 
-h2 {
-  font-size: 2.4em;
-  text-align: center;
+form label {
   margin: auto;
-  line-height: 60px;
-  font-family: "Marcellus", serif;
+  padding-bottom: 10px;
+  font-size: 1.8em;
+  text-align: center;
+  max-width: 600px;
+}
+
+form input {
+  min-height: 30px;
+  background-color: whitesmoke;
+  border: 3px solid #2D527F;
+  border-radius: 10px;
+}
+
+form button {
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+
+  font-family: "Ultra-Regular", serif;
+  color: #EA673B;
+  font-size: 2em;
+  border-radius: 10px;
+  border: 3px solid #EA673B;
+}
+
+
+form button:hover {
+  background-color: #F7B032;
+}
+
+#message {
+  min-height: 80px;
 }

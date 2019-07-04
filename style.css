@@ -1,4 +1,3 @@
-
 /* TOP NAV */
 
 /* Blue - #2D527F
@@ -11,31 +10,35 @@ Pink - #EC7176 */
   src: url(fonts/Ultra-Regular.ttf);
 } */
 
+html {
+  background-color: #2d527f;
+}
 
-ul {
+.navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #2d527f;
   position: fixed;
-  top: 0;
   width: 100%;
+  text-align: center;
+  font-family: "Fugaz One", cursive;
+  /* border-radius: 10px; */
 }
 
-
-ul li {
+.navigation li {
   float: left;
 }
 
-li a {
+.navigation a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
 
+}
 
 header li a:hover:not(.active) {
   background-color: #111;
@@ -45,14 +48,12 @@ header li a:hover:not(.active) {
   background-color: #ea673b;
 }
 
-
-
 /* GENERAL TYPOGRAHY */
 
 .bigTitle {
   font-size: 5em;
   color: white;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -62,18 +63,17 @@ header li a:hover:not(.active) {
   src: url(fonts/Ultra-Regular.ttf);
 } */
 
-
 h2 {
-  font-size: 2.4em;
+  font-size: 2em;
   text-align: center;
   margin: auto;
-  line-height: 60px;
-  font-family: 'Open Sans', sans-serif;
+  /* line-height: 60px; */
+  font-family: "Fugaz One", cursive;
   font-weight: 700;
 }
 
 p, h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.2em;
   text-align: center;
   max-width: 600px;
@@ -83,7 +83,9 @@ p, h3 {
 
 h3 {
   font-size: 1.4em;
-  font-family: 'Fugaz One', cursive;
+  font-family: "Fugaz One", cursive;
+  text-align: center;
+
 }
 
 form input {
@@ -109,17 +111,16 @@ form button:hover {
   background-color: #f7b032;
 }
 
-
 /* SECTIONS STYLING */
 
 section {
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   padding: 30px;
 }
 
 .blueSection {
-  background-color:#2D527F;
+  background-color: #2d527f;
   color: white;
   width: 100%;
 }
@@ -137,39 +138,44 @@ section {
   color: #2d527f;
 }
 
-
 /* TEAM SECTION */
 
 #team {
-  background-color:#F7B032;
-  color: #2D527F;
+  background-color: #f7b032;
+  color: #2d527f;
 }
 
 #team ol {
   list-style-type: none;
-
-
-  display: flex;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
-#team li {
-  min-width: 200px;
+.person-profile {  /* This relates to the profiles (and -unwillingly- links) */
+  width: 200px;
   padding: 20px;
-
-  justify-content: space-between;
+  text-align: center;
+  justify-content: space-around;
 }
-
 
 #profile {
   width: 100px;
   border-radius: 20px;
 }
 
-#icon {
-  width: 30px;
+.profile-links {
+  list-style-type: none;
+  display: flex;
+
 }
 
+.profile-links #icon {  /* This relates to the links within the profiles */
+  width: 30px;
+
+}
 
 /* CONTACT FORM */
 
@@ -177,7 +183,6 @@ section {
   background-color: #ec7176;
   color: #2d527f;
 }
-
 
 form {
   display: flex;
@@ -192,13 +197,13 @@ form label {
   font-size: 1.8em;
   text-align: center;
   max-width: 600px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 form input {
   min-height: 50px;
   background-color: whitesmoke;
-  border: 3px solid #2D527F;
+  border: 3px solid #2d527f;
   border-radius: 10px;
 }
 
@@ -207,16 +212,15 @@ form button {
   max-width: 200px;
   /* margin: auto; */
   height: 50px;
-  font-family: 'Open Sans', sans-serif;
-  color: #EA673B;
+  font-family: "Open Sans", sans-serif;
+  color: #ea673b;
   font-size: 2em;
   border-radius: 10px;
-  border: 3px solid #EA673B;
+  border: 3px solid #ea673b;
 }
 
-
 form button:hover {
-  background-color: #F7B032;
+  background-color: #f7b032;
 }
 
 #message {

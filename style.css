@@ -14,7 +14,6 @@ background-color: #333;
 
 } */
 
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -25,11 +24,11 @@ ul {
   top: 0;
   width: 100%;
 }
-    
-li {
+
+ul li {
   float: left;
 }
-    
+
 li a {
   display: block;
   color: white;
@@ -37,21 +36,21 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-    
+
 li a:hover:not(.active) {
   background-color: #111;
 }
-    
+
 .active {
-  background-color: #EA673B;
+  background-color: #ea673b;
 }
 
 .bigTitle {
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   font-family: "Ultra-Regular", serif;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 form {
@@ -72,7 +71,7 @@ form label {
 form input {
   min-height: 30px;
   background-color: whitesmoke;
-  border: 3px solid #2D527F;
+  border: 3px solid #2d527f;
   border-radius: 10px;
 }
 
@@ -81,14 +80,14 @@ form button {
   width: 400px;
   margin: auto;
   font-family: "Ultra-Regular", serif;
-  color: #EA673B;
+  color: #ea673b;
   font-size: 2em;
   border-radius: 10px;
-  border: 3px solid #EA673B;
+  border: 3px solid #ea673b;
 }
 
 form button:hover {
-  background-color: #F7B032;
+  background-color: #f7b032;
 }
 
 #message {
@@ -96,49 +95,51 @@ form button:hover {
 }
 
 section {
-  
   height: 100vh;
   width: 100vw;
   padding: 30px;
 }
 
-.blueSection { 
-  background-color:#2D527F;
+.blueSection {
+  background-color: #2d527f;
   color: white;
-  width: 100%
+  width: 100%;
 }
 
 .blueSection img {
-
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   max-width: 800px;
-  
-
 }
 
-#about{
-  background-color: #EA673B;
-  color: #2D527F;
-
+#about {
+  background-color: #ea673b;
+  color: #2d527f;
 }
 
 #team {
-  background-color:#F7B032;
-  color: #2D527F;
+  background-color: #f7b032;
+  color: #2d527f;
 }
 
 #contact {
-  background-color:#EC7176 ;
-  color: #2D527F;
+  background-color: #ec7176;
+  color: #2d527f;
 }
 
-p{
+p {
   font-size: 1.8em;
   text-align: center;
   max-width: 600px;
   margin: auto;
 }
 
+h2 {
+  font-size: 2.4em;
+  text-align: center;
+  margin: auto;
+  line-height: 60px;
+  font-family: ;
+}

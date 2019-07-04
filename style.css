@@ -1,4 +1,16 @@
+
 /* TOP NAV */
+
+/* Blue - #2D527F
+Orange - #EA673B
+Yellow - #F7B032
+Pink - #EC7176 */
+
+@font-face {
+  font-family: Ultra-Regular;
+  src: url(fonts/Ultra-Regular.ttf);
+}
+
 
 ul {
   list-style-type: none;
@@ -11,7 +23,8 @@ ul {
   width: 100%;
 }
 
-li {
+
+ul li {
   float: left;
 }
 
@@ -23,12 +36,13 @@ li a {
   text-decoration: none;
 }
 
+
 header li a:hover:not(.active) {
   background-color: #111;
 }
 
 .active {
-  background-color: #EA673B;
+  background-color: #ea673b;
 }
 
 
@@ -36,11 +50,11 @@ header li a:hover:not(.active) {
 /* GENERAL TYPOGRAHY */
 
 .bigTitle {
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   font-family: "Ultra-Regular", serif;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 @font-face {
@@ -59,6 +73,28 @@ h3 {
   font-size: 1.4em;
 }
 
+form input {
+  min-height: 30px;
+  background-color: whitesmoke;
+  border: 3px solid #2d527f;
+  border-radius: 10px;
+}
+
+form button {
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+  font-family: "Ultra-Regular", serif;
+  color: #ea673b;
+  font-size: 2em;
+  border-radius: 10px;
+  border: 3px solid #ea673b;
+}
+
+form button:hover {
+  background-color: #f7b032;
+}
+
 
 /* SECTIONS STYLING */
 
@@ -71,11 +107,10 @@ section {
 .blueSection {
   background-color:#2D527F;
   color: white;
-  width: 100%
+  width: 100%;
 }
 
 .blueSection img {
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -83,10 +118,9 @@ section {
   max-width: 800px;
 }
 
-#about{
-  background-color: #EA673B;
-  color: #2D527F;
-
+#about {
+  background-color: #ea673b;
+  color: #2d527f;
 }
 
 
@@ -95,7 +129,6 @@ section {
 #team {
   background-color:#F7B032;
   color: #2D527F;
-
 }
 
 #team ol {
@@ -127,9 +160,10 @@ section {
 /* CONTACT FORM */
 
 #contact {
-  background-color:#EC7176 ;
-  color: #2D527F;
+  background-color: #ec7176;
+  color: #2d527f;
 }
+
 
 form {
   display: flex;
@@ -163,6 +197,7 @@ form button {
   border-radius: 10px;
   border: 3px solid #EA673B;
 }
+
 
 form button:hover {
   background-color: #F7B032;

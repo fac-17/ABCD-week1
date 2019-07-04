@@ -1,69 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <link rel = "stylesheet" type = "text/css" href = "style.css" />
-    <title>ABCD-GROUP</title>
-  </head>
-  <body>
-    <nav>
+  <link rel = "stylesheet" type = "text/css" href = "style.css" />
+  <title>ABCD-GROUP</title>
+</head>
+<body>
+  <nav>
 
-      <ul>
-          <li><a class="active" href="#home">Home</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#team">TEAM</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-          </ul>
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#team">TEAM</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
 
-        </nav>
+  </nav>
 
-      </br>
+</br>
 
-  <section class="greenSection">
+<section class="greenSection">
 
-  <h1 class="bigTitle" id="home">ABCD-group</h1>
+  <h1 class="bigTitle" id="home">ABC(D)igital Group</h1>
   <p>A B C (D), easy as one, two, three
-      Are simple as do re mi</p>
+    Are simple as do re mi</p>
 
-</section>
+  </section>
 
-<section id="about">
-    <h1 class="bigTitle">ABOUT</h1>
-    <p>What is Lorem Ipsum?
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <section id="about">
+    <h1 class="bigTitle">ABOUT US</h1>
+    <p>ABC(D)igital is a creative design agency.</p>
+      <ul style="list-style-type:none;">
+        <li>Coding Commanders!</li> <br>
+        <li>Creative Design Gurus!</li><br>
+        <li>Web Development Wizards!</li><br>
+        <li>Jackson 5 Junkies!</li>
+    </ul>
+    </section> 
 
-</section>
+    <section id="team" class="greenSection">
+      <h1 class="bigTitle">TEAM</h1>
+      <ol>
+        <img src="./images/Emmanuel.jpg" alt="Emmanuel Agyei">
+        <h3>Emmanuel Agyei</h3>
+        <p>Cool pal, fan of the Arsenal team. He is a developer enthousiast with a special interest for UI and UX projects. He will hit the goal of all of your design projects!</p>
+      </ol>
 
-<section id="team" class="greenSection">
-  <h1 class="bigTitle">TEAM</h1>
-  <p>What is Lorem Ipsum?
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <ol>
+        <img src="./images/Francesca.jpg" alt="Francesca De Laurentis">
+        <h3>Francesca De Laurentis</h3>
+        <p>Italiana lady with a sunny energy. She has some trouble to remember names but she will definitely recognize you! Front-end is her passion and she will drive your design projects like a Fiat 500!</p>
+      </ol>
+
+      <ol>
+        <img src="./images/Victor.jpg" alt="Victor Masson">
+        <h3>Victor Masson</h3>
+        <p>Witty French dude who lives on a boat down the road. He's mastering GitHub and and swim in it like a fish in the sea. He will blow your mind with the weirdest commands ever!</p>
+      </ol>
+
+      <ol>
+        <img src="./images/Sarah.jpg" alt="Sarah Kharraz">
+        <h3>Sarah Kharraz</h3>
+        <p>Curly miss with a strange sense of humour. Happy to work with frent and back-end. The only important thing is to keep the vibe!</p>
+      </ol>
+
+    </section>
+
+    <section id="contact">
+      <h1 class="bigTitle">CONTACT</h1>
+
+      <form class="contact" action="/" method="post">
+        <label for "name">Name</label>
+        <input type="text" id="name" required/>
+        <br><br>
+        <label for "email">Email</label>
+        <input type="email" id="email" required  pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"/>
+        <br><br>
+        <label for "message">Message</label>
+        <input type="text" id="message" required/>
+        <br><br>
+        <label for "submit">Submit</label>
+        <button type="submit" id="submit" />Submit</button>
+      </form>
 
 
-</section>
 
-<section id="contact">
-<h1 class="bigTitle">CONTACT</h1>
-
-  <form class="contact" action="/" method="post">
-    <label for "name">Name</label>
-    <input type="text" id="name" required/>
-    <br><br>
-    <label for "email">Email</label>
-    <input type="email" id="email" required  pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"/>
-    <br><br>
-    <label for "message">Message</label>
-    <input type="text" id="message" required/>
-    <br><br>
-    <label for "submit">Submit</label>
-    <button type="submit" id="submit" />Submit</button>
-  </form>
-
-
-
-</section>
+    </section>
 
 
   </body>
-</html>
+  </html>

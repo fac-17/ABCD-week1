@@ -41,7 +41,6 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 
 header li a:hover:not(.active) {
@@ -70,7 +69,7 @@ header li a:hover:not(.active) {
 } */
 
 h2 {
-  font-size: 2em;
+  font-size: 2.4em;
   text-align: center;
   margin: auto;
   /* line-height: 60px; */
@@ -78,9 +77,10 @@ h2 {
   font-weight: 700;
 }
 
-p, h3 {
+p,
+h3 {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
   max-width: 600px;
   margin: auto;
@@ -91,7 +91,6 @@ h3 {
   font-size: 1.4em;
   font-family: "Fugaz One", cursive;
   text-align: center;
-
 }
 
 form input {
@@ -120,9 +119,9 @@ form button:hover {
 /* SECTIONS STYLING */
 
 section {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
 }
 
 .blueSection {
@@ -144,6 +143,11 @@ section {
   color: #2d527f;
 }
 
+.home {
+  font-size: 0.8em;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
 /* TEAM SECTION */
 
 #team {
@@ -157,15 +161,30 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
-.person-profile {  /* This relates to the profiles (and -unwillingly- links) */
+.person-profile {
+  /* This relates to the profiles (and -unwillingly- links) */
   width: 200px;
   padding: 20px;
   text-align: center;
   justify-content: space-around;
 }
+
+/*@media (max-width: 600px) {
+  #team ol {
+    list-style-type: none;
+    text-align: center;
+    display: ;
+    flex-direction: row;
+  }
+
+  .person-profile {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+  }
+}*/
 
 #profile {
   width: 100px;
@@ -175,12 +194,12 @@ section {
 .profile-links {
   list-style-type: none;
   display: flex;
-
 }
 
-.profile-links #icon {  /* This relates to the links within the profiles */
+.profile-links #icon {
+  /* This relates to the links within the profiles */
   width: 30px;
-
+  margin: 10px;
 }
 
 /* CONTACT FORM */

@@ -229,6 +229,14 @@ form button:hover {
   background-color: #f7b032;
 }
 
+form input:focus {
+    outline: none;
+    font-size: 2em;
+    color: #2d527f;
+    padding-left: 12px;
+
+}
+
 #message {
   min-height: 80px;
 }

@@ -64,7 +64,7 @@ header li a:hover:not(.active) {
 } */
 
 h2 {
-  font-size: 2em;
+  font-size: 2.4em;
   text-align: center;
   margin: auto;
   /* line-height: 60px; */
@@ -75,7 +75,7 @@ h2 {
 p,
 h3 {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
   max-width: 600px;
   margin: auto;
@@ -114,9 +114,9 @@ form button:hover {
 /* SECTIONS STYLING */
 
 section {
-  min-height: 100vh;
+  min-height: 80vh;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
 }
 
 .blueSection {
@@ -138,6 +138,11 @@ section {
   color: #2d527f;
 }
 
+.home {
+  font-size: 0.8em;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
 /* TEAM SECTION */
 
 #team {

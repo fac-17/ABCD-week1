@@ -1,4 +1,5 @@
 # ABCD
+Authors: [Emmanuel] , [Francesca], [Victor] (https://github.com/victormasson21), [Sarah]
 
 #### WHY / WHAT / HOW
 Building a one page website from scratch that provides a short agency portfolio for our team.

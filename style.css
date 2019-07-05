@@ -12,8 +12,12 @@ Pink - #EC7176 */
 
 html {
   background-color: #2d527f;
+  scroll-behavior: smooth;
 }
 
+body{
+  margin: 0;
+}
 .navigation {
   list-style-type: none;
   margin: 0;
@@ -47,6 +51,7 @@ header li a:hover:not(.active) {
 .active {
   background-color: #ea673b;
 }
+
 
 /* GENERAL TYPOGRAHY */
 

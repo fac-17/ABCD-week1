@@ -43,6 +43,7 @@ The website has to include 4 parts:
 
 
 **Our Team Dynamic**
+
 We switched pairs regularly to ensure everyone was able to work with one another
 We used mostly backseat driver approach.
 We ensured each pull request was reviewed by the other pair.

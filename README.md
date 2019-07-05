@@ -1,5 +1,5 @@
 # ABCD
-Authors: [Emmanuel] , [Francesca], [Victor] (https://github.com/victormasson21), [Sarah]
+Authors:Emmanuel, Francesca, Victor, Sarah
 
 #### WHY / WHAT / HOW
 Building a one page website from scratch that provides a short agency portfolio for our team.
@@ -41,6 +41,11 @@ The website has to include 4 parts:
 
 - [x] I would like to visit your site and get a similar experience to viewing your site on a modern browser with JavaScript enabled. So that I don't feel like I'm completely in the stone age.
 
+
+**Our Team Dynamic**
+We switched pairs regularly to ensure everyone was able to work with one another
+We used mostly backseat driver approach.
+We ensured each pull request was reviewed by the other pair.
 
 # Deployment
 This website has been deployed on GitHub Pages. You can access it [here](https://fac-17.github.io/ABCD-week1/).

@@ -1,5 +1,9 @@
 # ABCD
-Authors: Emmanuel, Francesca, Victor, Sarah
+Authors: 
+- Emmanuel,
+- Francesca,
+- Victor,
+- Sarah
 
 #### WHY / WHAT / HOW
 Building a one page website from scratch that provides a short agency portfolio for our team.

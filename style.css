@@ -162,9 +162,9 @@ section {
 
 .person-profile {  /* This relates to the profiles (and -unwillingly- links) */
   width: 200px;
-  padding: 20px;
+  margin: 40px;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #profile {
@@ -180,7 +180,7 @@ section {
 
 .profile-links #icon {  /* This relates to the links within the profiles */
   width: 30px;
-
+  margin: 10px;
 }
 
 /* CONTACT FORM */

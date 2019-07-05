@@ -12,6 +12,7 @@ Pink - #EC7176 */
 
 html {
   background-color: #2d527f;
+  scroll-behavior: smooth;
 }
 
 .navigation {
